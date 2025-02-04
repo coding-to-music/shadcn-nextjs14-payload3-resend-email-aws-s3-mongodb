@@ -1,3 +1,31 @@
+# shadcn-nextjs14-payload3-resend-email-aws-s3-mongodb
+
+# 🚀 Next.js 14.2 + Payload 3.0 Boilerplate 🚀
+
+https://github.com/coding-to-music/shadcn-nextjs14-payload3-resend-email-aws-s3-mongodb
+
+From / By https://github.com/Livog/Payload.3.0.Starter
+
+https://payload-saas.livog.com/
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/shadcn-nextjs14-payload3-resend-email-aws-s3-mongodb.git
+git push -u origin main
+```
+
+## Environment variables:
+
+```java
+
+```
+
 # 🚀 Next.js 14.2 + Payload 3.0 Boilerplate 🎉
 
 This boilerplate uses:
