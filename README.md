@@ -23,7 +23,40 @@ git push -u origin main
 ## Environment variables:
 
 ```java
+# General
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
 
+MONGODB_URI=
+AUTH_SECRET=
+AUTH_TRUST_HOST=true
+AUTH_VERPOSE=false
+AUTH_URL=http://localhost:3000
+
+AUTH_GITHUB_ID=
+AUTH_GITHUB_SECRET=
+
+# Resend (Email)
+RESEND_DEFAULT_EMAIL=
+AUTH_RESEND_KEY=
+
+# Cloudflare (If is used)
+CLOUDFLARE_API_TOKEN=
+CLOUDFLARE_ZONE_ID=
+
+## S3
+S3_ACCESS_KEY_ID=
+S3_SECRET_ACCESS_KEY=
+S3_REGION=
+S3_ENDPOINT=
+S3_BUCKET=
+NEXT_PUBLIC_S3_HOSTNAME=
+NEXT_PUBLIC_UPLOAD_PREFIX= # This is optional, should be a-z without /
+
+# Stripe
+NEXT_PUBLIC_STRIPE_IS_TEST_KEY=
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOKS_SIGNING_SECRET=
 ```
 
 # 🚀 Next.js 14.2 + Payload 3.0 Boilerplate 🎉

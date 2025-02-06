@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "deploy": "git add . && git commit -m Build && git push",
+    "mydeploy": "git add . && git commit -m Build && git push",
     "dev": "cross-env NODE_OPTIONS=--no-deprecation next dev",
     "devsafe": "pnpm run clear:next && cross-env NODE_OPTIONS=--no-deprecation next dev",
     "build": "cross-env NODE_OPTIONS=--no-deprecation next build",
